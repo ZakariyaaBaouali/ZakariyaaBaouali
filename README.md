@@ -1,9 +1,9 @@
 <h1 align="center">Hi 👋, I'm Zakaria Baouali</h1>
 <h3 align="center">A backend engineer enthusiastic from morrocco</h3>
 
-- 🔭 I’m currently working on **search-engine project**
+- 🔭 I’m currently working on **re start learning algos **
 
-- 🌱 I’m currently learning **c++**
+- 🌱 I’m currently learning **algos**
 
 - 👯 I’m looking to collaborate on **ecommerce-backend project**
 
@@ -11,11 +11,11 @@
 
 - 👨‍💻 All of my projects are available at [https://github.com/ZakariyaaBaouali?tab=repositories](https://github.com/ZakariyaaBaouali?tab=repositories)
 
-- 💬 Ask me about **express , mysql , ws , mongodb , docker**
+- 💬 Ask me about **express , mysql , ws , mongodb , docker , java , spring boot**
 
 - 📫 How to reach me **zakariabaouali@outlook.com**
 
-- ⚡ Fun fact **I love anime , and my favorite is demon slayer**
+- ⚡ Fun fact **I love anime , and my favorite is demon slayer and naruto also bleach**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
