@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Zakaria Baouali</h1>
 <h3 align="center">A backend engineer enthusiastic from morrocco</h3>
 
-- 🔭 I’m currently working on **re start learning algos **
+- 🔭 I’m currently working on **learning algos **
 
 - 🌱 I’m currently learning **algos**
 
