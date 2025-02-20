@@ -1,15 +1,13 @@
 <h1 align="center">Hi 👋, I'm Zakaria Baouali</h1>
-<h3 align="center">A django  backend engineer enthusiastic </h3>
+<h3 align="center">A spring boot  backend engineer enthusiastic </h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=zakariyaabaouali&label=Profile%20views&color=0e75b6&style=flat" alt="zakariyaabaouali" /> </p>
-
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=zakariyaabaouali" alt="zakariyaabaouali" /></a> </p>
 
 <p align="left"> <a href="https://twitter.com/baouali_zakaria" target="blank"><img src="https://img.shields.io/twitter/follow/baouali_zakaria?logo=twitter&style=for-the-badge" alt="baouali_zakaria" /></a> </p>
 
 - 🔭 I’m currently working on **store-app project**
 
-- 🌱 I’m currently learning **django**
+- 🌱 I’m currently learning **spring boot**
 
 - 👯 I’m looking to collaborate on **store-backend project**
 
@@ -17,7 +15,7 @@
 
 - 👨‍💻 All of my projects are available at [https://github.com/ZakariyaaBaouali?tab=repositories](https://github.com/ZakariyaaBaouali?tab=repositories)
 
-- 💬 Ask me about **python , django , docker**
+- 💬 Ask me about **python , java , javascript , typescript , react , spring boot , docker**
 
 - 📫 How to reach me **zakariabaouali@outlook.com**
 
