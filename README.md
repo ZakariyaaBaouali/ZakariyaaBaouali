@@ -1,8 +1,6 @@
 <h1 align="center">Hi 👋, I'm Zakaria Baouali</h1>
 <h3 align="center">A spring boot  backend engineer enthusiastic </h3>
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=zakariyaabaouali&label=Profile%20views&color=0e75b6&style=flat" alt="zakariyaabaouali" /> </p>
-
 <p align="left"> <a href="https://twitter.com/baouali_zakaria" target="blank"><img src="https://img.shields.io/twitter/follow/baouali_zakaria?logo=twitter&style=for-the-badge" alt="baouali_zakaria" /></a> </p>
 
 - 🔭 I’m currently working on **store-app project**
