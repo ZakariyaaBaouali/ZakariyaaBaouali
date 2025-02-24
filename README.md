@@ -3,6 +3,48 @@
 
 <p align="left"> <a href="https://twitter.com/baouali_zakaria" target="blank"><img src="https://img.shields.io/twitter/follow/baouali_zakaria?logo=twitter&style=for-the-badge" alt="baouali_zakaria" /></a> </p>
 
+# Hi there! 👋 I'm [Your Name]  
+
+## 🚀 About Me
+I'm a passionate **Java Backend Developer** currently building high-performance applications with **Spring Boot** and modern databases like **PostgreSQL, Neo4j, and Redis**. My focus is on developing scalable and efficient solutions while continuously improving my skills in software architecture and system design.
+
+## 📚 My Learning Journey
+I'm currently mastering **Java, SQL, and Spring Boot** to strengthen my backend development expertise. My goal is to build production-ready applications that solve real-world problems.
+
+## 🔥 Projects I'm Working On
+### 🛒 **E-commerce Platform** (like Amazon)
+- **Tech Stack:** Java, Spring Boot, PostgreSQL, pgvector, Neo4j, Redis, JWT, OAuth, Stripe/PayPal, WebSockets
+- **Features:** Advanced search, recommendations, real-time notifications
+
+### 📺 **Streaming Platform** (like YouTube)
+- **Tech Stack:** Java, Spring Boot, PostgreSQL, pgvector, Neo4j, Redis, FFmpeg, RTMP + HLS
+- **Features:** Video processing, multi-quality support, real-time chat, live streaming
+
+### 📝 **Real-time Collaboration Platform** (like Miro)
+- **Tech Stack:** Java, Spring Boot, MongoDB, pgvector, Redis, JWT, OAuth, WebSockets
+- **Features:** Real-time notifications, chat, collaborative workspace
+
+## 🛠️ Tech Stack
+- **Backend:** Java, Spring Boot
+- **Databases:** PostgreSQL, Neo4j, MongoDB, Redis
+- **AI & Vector Search:** pgvector
+- **Payments:** Stripe, PayPal
+- **Video Processing:** FFmpeg
+- **Real-time:** WebSockets, Redis
+- **Auth:** JWT, OAuth
+
+## 📊 GitHub Stats
+![GitHub Streak](https://streak-stats.demolab.com/?user=your-username&theme=radical&hide_border=true)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=your-username&show_icons=true&theme=radical)
+
+## 📫 Connect with Me
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/your-profile)
+
+---
+✨ *Always open to collaboration and new opportunities!*
+
+
+
 - 🔭 I’m currently working on **store-app project**
 
 - 🌱 I’m currently learning **spring boot**
