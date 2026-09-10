@@ -1,119 +1,170 @@
 <div align="center">
 
-# Hi, I'm Zakariyaa Baouali 👋
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1e3a5f,100:0d1b2a&height=200&section=header&text=Zakaria%20Baouali&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Java%20Backend%20Developer%20%C2%B7%20Spring%20Boot%20%C2%B7%20System%20Design&descAlignY=58&descSize=18" width="100%"/>
 
-### Java Backend Developer · Spring Boot · System Design
-
-I build backend systems the way they'd be built at scale — starting from domain modeling and
-architecture decisions, not just code. Currently deep in **Athena**, a trading operating system
-I'm designing and building from the ground up.
-
-[![Twitter](https://img.shields.io/badge/-Twitter-1DA1F2?style=flat-square&logo=twitter&logoColor=white)](https://twitter.com/baouali_zakaria)
-[![Instagram](https://img.shields.io/badge/-Instagram-E4405F?style=flat-square&logo=instagram&logoColor=white)](https://instagram.com/zak_maroki)
+<a href="https://twitter.com/baouali_zakaria">
+  <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" />
+</a>
+<a href="https://instagram.com/zak_maroki">
+  <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" />
+</a>
 
 </div>
 
----
+<br/>
 
 ## 🧠 About Me
 
-I'm a backend developer focused on **Spring Boot**, distributed systems, and software
-architecture. My approach to every project starts the same way: understand the domain, design
-the architecture deliberately (event storming, bounded contexts, C4 diagrams, ADRs), *then*
-write the code — not the other way around.
+I build backend systems the way they'd be built at scale — starting from domain modeling and
+architecture decisions, not just code. My approach to every project is the same: understand the
+domain, design the architecture deliberately *(event storming, bounded contexts, C4 diagrams,
+documented decisions)*, then write the code — not the other way around.
 
-Right now I'm applying that process to something more demanding than a typical CRUD app: a
-trading system, where correctness, concurrency, and latency actually matter.
+Right now I'm applying that process to something more demanding than a typical CRUD app.
 
----
+<br/>
 
-## ⚡ Currently Building — Athena
+## ⚡ Currently Building
 
-**A trading operating system.** It watches the market, turns raw data into trade signals,
-manages risk, and executes trades with a broker — with minimal manual work from the trader.
+<div align="center">
+<h3>Athena — a trading operating system</h3>
+</div>
 
-Built as **11 services, each with a single responsibility.**
+Athena watches the market, turns raw data into trade signals, manages risk, and executes trades
+with a broker — with minimal manual work from the trader. Built as **11 services, each with a
+single responsibility.**
 
-**Data Pipeline** — gets raw market data in, stores it, and turns it into something usable
-- `Connection Service` — talks to external APIs, receives incoming market data
-- `Data Service` — talks to the database; reads and writes all persistent data
-- `Storage Service` — handles file/object storage (historical records, logs, backups)
-- `Caching Service` — keeps frequently-used data in fast, temporary storage
-- `Processing Service` — converts raw data into mathematical features the rest of the system uses
+<table width="100%">
+<tr>
+<td valign="top" width="50%">
 
-**Intelligence & Decisioning** — turns features into actual trade decisions
-- `Signal Generation Service` — AI-agent-powered; turns tracked features into trade decisions
-- `Risk Service` — AI-agent-powered; sizing plus real-time tracking of open trades
+**📡 Data Pipeline**
+<br/><sub>gets raw market data in, stores it, makes it usable</sub>
 
-**Trading**
-- `Execution Engine` — sends and manages orders with the broker; built to integrate with
-  multiple brokers, not just one
+| Service | Responsibility |
+|---|---|
+| `Connection` | Talks to external APIs, receives market data |
+| `Data` | Reads and writes all persistent data |
+| `Storage` | File/object storage — records, logs, backups |
+| `Caching` | Fast, temporary storage for hot data |
+| `Processing` | Turns raw data into usable features |
 
-> Signal Generation decides *what* it wants to do, Risk decides *whether and how much* it's
-> allowed to do, and Execution decides *how* to actually place it with the broker.
+</td>
+<td valign="top" width="50%">
 
-**Platform / Supporting Services** — standard services every product needs, independent of the
-trading logic
-- `Authentication Service` — user identity and access
-- `Payment Service` — billing and payments
-- `Notification Service` — alerts and updates to users
+**🎯 Intelligence & Decisioning**
+<br/><sub>turns features into trade decisions</sub>
 
-**Athena's stack:** `Spring Boot` · `PostgreSQL` · `Redis` · `GraphQL`
+| Service | Responsibility |
+|---|---|
+| `Signal Generation` | AI-agent powered — produces trade decisions |
+| `Risk` | AI-agent powered — sizing, real-time monitoring |
+
+**⚙️ Trading**
+
+| Service | Responsibility |
+|---|---|
+| `Execution Engine` | Places & manages orders across brokers |
+
+</td>
+</tr>
+</table>
+
+> Signal Generation decides **what** it wants to do, Risk decides **whether and how much** it's
+> allowed to do, and Execution decides **how** to actually place it with the broker.
+
+**🧩 Platform / Supporting Services**
+<br/><sub>standard services every product needs, independent of the trading logic</sub>
+
+`Authentication` · `Payment` · `Notification`
+
+<div align="center">
+<br/>
+
+![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
+![GraphQL](https://img.shields.io/badge/GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white)
+
+</div>
+
+<br/>
 
 > *Every service's architecture is designed before it's built — requirements, event storming,
-> bounded contexts, C4 diagrams, and documented decisions (ADRs) come first.*
+> bounded contexts, C4 diagrams, and documented decisions come first.*
 
----
+<br/>
 
 ## 🛠️ Tech Stack
 
-**Languages & Frameworks**
+<table width="100%">
+<tr>
+<td valign="top" width="25%">
 
-![Java](https://img.shields.io/badge/-Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/-Spring%20Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+**Languages**
+<br/><br/>
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" width="36" height="36"/>&nbsp;
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/spring/spring-original.svg" width="36" height="36"/>&nbsp;
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="36" height="36"/>&nbsp;
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" width="36" height="36"/>
+
+</td>
+<td valign="top" width="25%">
 
 **Databases**
+<br/><br/>
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg" width="36" height="36"/>&nbsp;
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg" width="36" height="36"/>&nbsp;
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redis/redis-original.svg" width="36" height="36"/>&nbsp;
+<img src="https://www.vectorlogo.zone/logos/neo4j/neo4j-icon.svg" width="36" height="36"/>
 
-![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
-![Redis](https://img.shields.io/badge/-Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
-![Neo4j](https://img.shields.io/badge/-Neo4j-008CC1?style=flat-square&logo=neo4j&logoColor=white)
+</td>
+<td valign="top" width="25%">
 
 **Messaging & Real-Time**
+<br/><br/>
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/apachekafka/apachekafka-original.svg" width="36" height="36"/>
 
-![Kafka](https://img.shields.io/badge/-Apache%20Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white)
+</td>
+<td valign="top" width="25%">
 
-**Infrastructure & Tools**
+**Infrastructure**
+<br/><br/>
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" width="36" height="36"/>&nbsp;
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg" width="36" height="36"/>
 
-![AWS](https://img.shields.io/badge/-AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white)
-![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+</td>
+</tr>
+</table>
 
----
+<br/>
 
 ## 📊 GitHub Stats
 
-<p align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=zakariyaabaouali&show_icons=true&locale=en&theme=default" alt="zakariyaabaouali stats" height="165"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=zakariyaabaouali&show_icons=true&locale=en&layout=compact" alt="zakariyaabaouali top langs" height="165"/>
-</p>
+<div align="center">
 
-<p align="left">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=zakariyaabaouali" alt="zakariyaabaouali streak stats" />
-</p>
+<img src="https://github-readme-stats.vercel.app/api?username=zakariyaabaouali&show_icons=true&locale=en&theme=default&hide_border=true&count_private=true" height="165"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs?username=zakariyaabaouali&show_icons=true&locale=en&layout=compact&hide_border=true" height="165"/>
 
----
+<br/>
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=zakariyaabaouali&hide_border=true" />
+
+</div>
+
+<br/>
 
 ## 🎌 Fun Fact
 
-Big anime fan — **Solo Leveling** is my favorite. (Watching a protagonist go from E-rank to
+Big anime fan — **Solo Leveling** is my favorite. Watching a protagonist go from E-rank to
 S-rank through relentless, deliberate leveling up is basically how I think about learning
-systems architecture, if I'm honest.)
+systems architecture, if I'm honest.
 
----
+<br/>
 
 <div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1b2a,100:1e3a5f&height=100&section=footer"/>
 
 ✨ *Always open to collaboration and new opportunities* ✨
 
