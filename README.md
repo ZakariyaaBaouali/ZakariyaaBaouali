@@ -17,7 +17,10 @@ architecture decisions, not just code. My approach to every project is the same:
 domain, design the architecture deliberately *(event storming, bounded contexts, C4 diagrams,
 documented decisions)*, then write the code — not the other way around.
 
-Right now I'm applying that process to something more demanding than a typical CRUD app.
+Right now I'm applying that process to something more demanding than a typical CRUD app. I'm
+also learning and building **AI agents** — currently exploring how autonomous agents can power
+real decision-making systems, which feeds directly into Athena's Signal Generation and Risk
+services below.
 
 <br/>
 
@@ -31,52 +34,47 @@ Athena watches the market, turns raw data into trade signals, manages risk, and 
 with a broker — with minimal manual work from the trader. Built as **11 services, each with a
 single responsibility.**
 
-<table width="100%">
-<tr>
-<td valign="top" width="50%">
+<br/>
 
-**📡 Data Pipeline**
-<br/><sub>gets raw market data in, stores it, makes it usable</sub>
+### 📡 Data Pipeline
+<sub>gets raw market data in, stores it, makes it usable</sub>
 
-| Service | Responsibility |
-|---|---|
-| `Connection` | Talks to external APIs, receives market data |
-| `Data` | Reads and writes all persistent data |
-| `Storage` | File/object storage — records, logs, backups |
-| `Caching` | Fast, temporary storage for hot data |
-| `Processing` | Turns raw data into usable features |
+- **`Connection Service`** — talks to external APIs, receives incoming market data
+- **`Data Service`** — reads and writes all persistent data
+- **`Storage Service`** — file/object storage — historical records, logs, backups
+- **`Caching Service`** — fast, temporary storage for frequently-used data
+- **`Processing Service`** — turns raw data into mathematical features the rest of the system uses
 
-</td>
-<td valign="top" width="50%">
+<br/>
 
-**🎯 Intelligence & Decisioning**
-<br/><sub>turns features into trade decisions</sub>
+### 🎯 Intelligence & Decisioning
+<sub>turns features into actual trade decisions — powered by AI agents</sub>
 
-| Service | Responsibility |
-|---|---|
-| `Signal Generation` | AI-agent powered — produces trade decisions |
-| `Risk` | AI-agent powered — sizing, real-time monitoring |
+- **`Signal Generation Service`** — takes tracked features and produces trade decisions
+- **`Risk Service`** — handles sizing and real-time tracking/monitoring of open trades
 
-**⚙️ Trading**
+<br/>
 
-| Service | Responsibility |
-|---|---|
-| `Execution Engine` | Places & manages orders across brokers |
+### ⚙️ Trading
 
-</td>
-</tr>
-</table>
+- **`Execution Engine`** — sends and manages orders with the broker; built to integrate with
+  multiple brokers, not just one
 
 > Signal Generation decides **what** it wants to do, Risk decides **whether and how much** it's
 > allowed to do, and Execution decides **how** to actually place it with the broker.
 
-**🧩 Platform / Supporting Services**
-<br/><sub>standard services every product needs, independent of the trading logic</sub>
+<br/>
 
-`Authentication` · `Payment` · `Notification`
+### 🧩 Platform / Supporting Services
+<sub>standard services every product needs, independent of the trading logic</sub>
+
+- **`Authentication Service`** — user identity and access
+- **`Payment Service`** — billing and payments
+- **`Notification Service`** — alerts and updates to users
+
+<br/>
 
 <div align="center">
-<br/>
 
 ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
