@@ -2,8 +2,8 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1e3a5f,100:0d1b2a&height=200&section=header&text=Zakaria%20Baouali&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Java%20Backend%20Developer%20%C2%B7%20Spring%20Boot%20%C2%B7%20System%20Design&descAlignY=58&descSize=18" width="100%"/>
 
-<a href="https://twitter.com/baouali_zakaria">
-  <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" />
+<a href="https://x.com/baouali_zakaria">
+  <img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" />
 </a>
 
 </div>
@@ -12,27 +12,19 @@
 
 ## 🧠 About Me
 
-I build backend systems the way they'd be built at scale — starting from domain modeling and
-architecture decisions, not just code. My approach to every project is the same: understand the
-domain, design the architecture deliberately *(event storming, bounded contexts, C4 diagrams,
-documented decisions)*, then write the code — not the other way around.
+I build backend systems the way they'd be built at scale — starting from domain modeling and architecture decisions, not just code. My approach to every project is the same: understand the domain, design the architecture deliberately *(event storming, bounded contexts, C4 diagrams, documented decisions)*, then write the code — not the other way around.
 
-Right now I'm applying that process to something more demanding than a typical CRUD app. I'm
-also learning and building **AI agents** — currently exploring how autonomous agents can power
-real decision-making systems, which feeds directly into Athena's Signal Generation and Risk
-services below.
+Right now I'm applying that process to something more demanding than a typical CRUD app. I'm also learning and building **🤖 AI agents** — currently exploring how autonomous agents can power real decision-making systems, which feeds directly into Athena's Signal Generation and Risk services below.
 
 <br/>
 
 ## ⚡ Currently Building
 
 <div align="center">
-<h3>Athena — a trading operating system</h3>
+<h3>🏦 AuthenticOne - AI-driven Trading Operating System</h3>
 </div>
 
-Athena watches the market, turns raw data into trade signals, manages risk, and executes trades
-with a broker — with minimal manual work from the trader. Built as **11 services, each with a
-single responsibility.**
+Athena watches the market, turns raw data into trade signals, manages risk, and executes trades with a broker — with minimal manual work from the trader. Built as **11 services, each with a single responsibility.**
 
 <br/>
 
@@ -57,15 +49,13 @@ single responsibility.**
 
 ### ⚙️ Trading
 
-- **`Execution Engine`** — sends and manages orders with the broker; built to integrate with
-  multiple brokers, not just one
+- **`Execution Engine`** — sends and manages orders with the broker; built to integrate with multiple brokers, not just one
 
-> Signal Generation decides **what** it wants to do, Risk decides **whether and how much** it's
-> allowed to do, and Execution decides **how** to actually place it with the broker.
+> 🧩 Signal Generation decides **what** it wants to do, Risk decides **whether and how much** it's allowed to do, and Execution decides **how** to actually place it with the broker.
 
 <br/>
 
-### 🧩 Platform / Supporting Services
+### 🛡️ Platform / Supporting Services
 <sub>standard services every product needs, independent of the trading logic</sub>
 
 - **`Authentication Service`** — user identity and access
@@ -85,8 +75,7 @@ single responsibility.**
 
 <br/>
 
-> *Every service's architecture is designed before it's built — requirements, event storming,
-> bounded contexts, C4 diagrams, and documented decisions come first.*
+> 📐 *Every service's architecture is designed before it's built — requirements, event storming, bounded contexts, C4 diagrams, and documented decisions come first.*
 
 <br/>
 
@@ -96,7 +85,7 @@ single responsibility.**
 <tr>
 <td valign="top" width="25%">
 
-**Languages**
+**💻 Languages**
 <br/><br/>
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" width="36" height="36"/>&nbsp;
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/spring/spring-original.svg" width="36" height="36"/>&nbsp;
@@ -106,7 +95,7 @@ single responsibility.**
 </td>
 <td valign="top" width="25%">
 
-**Databases**
+**🗄️ Databases**
 <br/><br/>
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg" width="36" height="36"/>&nbsp;
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg" width="36" height="36"/>&nbsp;
@@ -116,14 +105,15 @@ single responsibility.**
 </td>
 <td valign="top" width="25%">
 
-**Messaging & Real-Time**
+**📨 Messaging &
+      Real-Time**
 <br/><br/>
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/apachekafka/apachekafka-original.svg" width="36" height="36"/>
 
 </td>
 <td valign="top" width="25%">
 
-**Infrastructure**
+**☁️ Infrastructure**
 <br/><br/>
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" width="36" height="36"/>&nbsp;
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg" width="36" height="36"/>
@@ -147,9 +137,7 @@ single responsibility.**
 
 ## 🎌 Fun Fact
 
-Big anime fan — **Solo Leveling** is my favorite. Watching a protagonist go from E-rank to
-S-rank through relentless, deliberate leveling up is basically how I think about learning
-systems architecture, if I'm honest.
+Big anime fan — **Solo Leveling** is my favorite. Watching a protagonist go from E-rank to S-rank through relentless, deliberate leveling up is basically how I think about learning systems architecture, if I'm honest.
 
 <br/>
 
