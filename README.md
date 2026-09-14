@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1e3a5f,100:0d1b2a&height=200&section=header&text=Zakaria%20Baouali&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Java%20Backend%20Developer%20%C2%B7%20Spring%20Boot%20%C2%B7%20System%20Design&descAlignY=58&descSize=18" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1e3a5f,100:0d1b2a&height=200&section=header&text=Zakariyaa%20Baouali&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Java%20Backend%20Developer%20%C2%B7%20Spring%20Boot%20%C2%B7%20System%20Design&descAlignY=58&descSize=18" width="100%"/>
 
 <a href="https://x.com/baouali_zakaria">
   <img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" />
